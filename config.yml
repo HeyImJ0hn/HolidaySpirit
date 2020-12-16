@@ -1,0 +1,70 @@
+spawnchances:
+   santahat: 0.20
+
+dropchances:
+   santahat: 0.10 # Chance of hat dropping from mob
+   bag:
+      droprate: 0.15 # Chance of bag dropping from mob
+      rarelootchance: 0.1 # Chance of hitting rare loot table
+      commondropamount: 4 # Amount of times the common loot table rolls
+      raredropamount: 2 # Amount of times the rare loot table rolls
+
+data:
+   commonitems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: IRON_INGOT
+        amount: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: GOLD_INGOT
+        amount: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: SPECTRAL_ARROW
+        amount: 5
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: LEATHER
+        amount: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: EXPERIENCE_BOTTLE
+        amount: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: COOKED_BEEF
+        amount: 5
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: NAUTILUS_SHELL
+        amount: 1
+   rareitems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: DIAMOND
+        amount: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: EMERALD
+        amount: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: HEART_OF_THE_SEA
+        amount: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: ENDER_PEARL
+        amount: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: GOLDEN_APPLE
+        amount: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: NAME_TAG
+        amount: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2584
+        type: SADDLE
+        amount: 1
