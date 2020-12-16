@@ -69,7 +69,9 @@ public class Events implements Listener {
 			if (Math.random() < dropChance) {
 				Location loc = event.getEntity().getLocation();
 				loc.getWorld().dropItemNaturally(loc, ItemManager.goodieBag);
-				event.getEntity().getKiller().sendMessage("§eThe enemy you killed dropped a §6Goodie Bag§e!");
+				if (event.getEntity().getKiller() instanceof Player && event.getEntity().getKiller() != null) {
+					event.getEntity().getKiller().sendMessage("§eThe enemy you killed dropped a §6Goodie Bag§e!");
+				}
 			}
 			if (event.getEntity().getEquipment() != null) {
 				if (event.getEntity().getEquipment().getHelmet() != null) {
